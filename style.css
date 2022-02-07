@@ -167,9 +167,6 @@ a {
   border-radius: 24px;
   width: 20%;
   background: none;
-  outline: auto;
-  outline-color: rgb(5, 32, 109);
-  outline-width: 9px;
 }
 
 .rightside {
