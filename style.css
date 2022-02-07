@@ -166,7 +166,9 @@ a {
 .learnMore {
   border-radius: 24px;
   width: 20%;
-  background: none;
+  background-color: transparent;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+
 }
 
 .rightside {
