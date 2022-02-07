@@ -1,0 +1,511 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: rgb(10, 25, 100);
+  margin: 0;
+  animation: fadein 2s;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto 8rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  animation: slide-right 1s forwards;
+  transform: translateY(-100%);
+}
+
+.navigation {
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+  background-color: rgb(10, 25, 100);
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+}
+
+.navbar > div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.navbar > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  /* background-color: teal; */
+  width: 100%;
+}
+.logo > a {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.links {
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.login {
+  /* background-color: violet; */
+  width: 60%;
+  text-align: center;
+}
+
+.loginbutton {
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 24px;
+  background: linear-gradient(
+    90deg,
+    rgba(107, 99, 240, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 40%;
+  font-size: 14px;
+}
+
+.centermain {
+  /* background-color: tan; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.leftside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1px; /* this */
+  flex: 1;
+  /* background-color: thistle; */
+}
+.catch {
+  font-size: 64px;
+  width: 100%;
+  animation: slide-right 1s forwards;
+  transform: translateX(-100%);
+}
+.innercatch {
+  background: linear-gradient(
+    90deg,
+    rgba(107, 99, 240, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 80%;
+}
+
+.subcatch {
+  width: 75%;
+}
+
+.keepbuttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.keepbuttons > button {
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.GetStarted {
+  border-radius: 24px;
+  /* background: rgb(107, 99, 240); */
+  background: linear-gradient(
+    90deg,
+    rgba(107, 99, 240, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 20%;
+  margin-right: 20px;
+}
+
+.learnMore {
+  border-radius: 24px;
+  width: 20%;
+  background: none;
+  outline: auto;
+  outline-color: rgb(5, 32, 109);
+  outline-width: 9px;
+}
+
+.rightside {
+  width: 100%;
+  display: flex;
+  /* background-color: yellow; */
+  padding: 1px; /* this */
+  flex: 1;
+}
+
+.bitimage {
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+/* Footer */
+.endfooter {
+  background-color: rgb(6, 13, 51);
+  margin-top: 2em;
+  height: fit-content;
+}
+
+.allelements {
+  display: flex;
+  width: auto;
+  margin: auto 8rem;
+}
+
+.footer1 {
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 1rem;
+  justify-content: center;
+}
+
+.howWorks {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer1 > h1 {
+  font-size: 26px;
+  width: 100%;
+}
+
+.footer1 > p {
+  margin-top: 0;
+  font-size: 12px;
+  /* background-color: brown; */
+  width: 60%;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aliceblue; */
+  width: 100%;
+}
+.firstSet {
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.innerleft {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  margin-right: 0.8rem;
+}
+
+.innerright {
+  /* background-color: teal; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 100%;
+}
+
+.innerright > h2 {
+  font-size: 12px;
+  width: 100%;
+}
+
+.innerright > p {
+  display: flex;
+  font-size: 10px;
+  width: 80%;
+  /* background-color: yellow; */
+  align-items: flex-start;
+}
+
+.SecondSet {
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.thirdSet {
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.fourthSet {
+  display: flex;
+  flex-direction: row;
+  /* background-color: teal; */
+  width: 100%;
+}
+
+.spaced {
+  margin-top: 2em;
+}
+
+.attribution{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+  flex-direction: column;
+  font-family: monospace;
+  margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: auto 2rem;
+  }
+
+  .allelements {
+    display: flex;
+    width: auto;
+    margin: auto 2rem;
+  }
+
+  .catch {
+    font-size: 48px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .subcatch {
+    margin-top: 0;
+    font-size: small;
+    width: 75%;
+  }
+  .GetStarted {
+    width: 30%;
+  }
+
+  .learnMore {
+    width: 30%;
+  }
+  .navigate {
+    /* background-color: yellow; */
+    display: flex;
+    margin-right: 1em;
+    width: 100%;
+    /* background-color: yellow; */
+  }
+
+  .bitimage {
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+  }
+
+  .leftside {
+    width: auto;
+    flex: 1;
+  }
+
+  .rightside {
+    width: auto;
+    flex: 1;
+  }
+
+  
+}
+
+@media only screen and (max-width: 425px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0rem;
+  }
+  .catch {
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .bitimage {
+    display: none;
+  }
+  .allelements {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 13, 48);
+    position: absolute;
+    padding-bottom: 2.5em;
+    animation: slide-right 1s forwards;
+    transform: translateY(-100%);
+    transition: all 0.3s linear;
+    height: 0;
+    visibility: hidden;
+  
+  
+  }
+
+  .showlinks {
+    position: absolute;
+    height: 100vh;
+    transform: translateY(-100%);
+    visibility: visible;
+    transition: all 0.3s linear;
+  }
+
+  .logo {
+    /* background-color: aliceblue; */
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  .links {
+    /* height: 100vh; */
+   flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  .hidelinks{
+     animation: fadeout 0.3s;
+  }
+
+  .navigate {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    height: auto;
+
+  }
+
+  .login {
+    width: 100%;
+    /* background-color: yellow; */
+    justify-content: center;
+  }
+  .loginbutton {
+    margin: 0 auto;
+  }
+
+  .navigation {
+    background-color: rgb(6, 13, 48);
+  }
+
+  .hamcontainer {
+    width: 100%;
+    height: 120%;
+    background-color: aliceblue;
+  }
+
+  .hamburger {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    background: none;
+    width: 100%;
+    border: none;
+    right: 1em;
+  }
+
+  i {
+    color: white;
+    font-size: 24px;
+    height: auto;
+  }
+  .navigation {
+    width: 100%;
+    /* background-color: aliceblue; */
+    z-index: 1;
+  }
+
+  .keepbuttons > button {
+    width: fit-content;
+  }
+
+  .leftside {
+    margin-left: 2em;
+  }
+
+  .howWorks{
+    text-align: center;
+  }
+  .footer1>*{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+}
+
+/* Animations */
+@keyframes slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
