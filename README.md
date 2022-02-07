@@ -8,7 +8,7 @@
 
 ![Laptop](./Screenshots/laptop.png)
 ![Tablet](./Screenshots/tablet.png)
-<div style="width:100px; margin:0 auto"><img src="./Screenshots/mobile.png" alt="drawing" /></div>
+<div style=" display:flex; justify-content:center;"><img src="./Screenshots/mobile.png" alt="drawing" width="250px" /></div>
 
 ## Credit 
 [Md. Maksedur rahman](https://dribbble.com/shots/17335386-Cryptocurrncy-Header-Exploration)
